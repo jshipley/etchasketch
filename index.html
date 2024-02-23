@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"/>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <title>Etch a Sketch</title>
+</head>
+<body>
+    <header>
+        <h1>Etch a Sketch</h1>
+    </header>
+    <label>
+        Board Size
+        <input type="range" class="range" id="board-width" min="4" max="100" value="16" onchange="changeBoardWidth()">
+    </label>
+    <div id="gameContainer"></div>
+    <script src="main.js"></script>
+</body>
+</html>

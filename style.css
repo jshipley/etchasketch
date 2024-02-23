@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 450px;
+    margin: auto;
+}
+
+.cell {
+    background-color: rgb(29, 11, 29);
+}
+
+.cell.visited {
+    background-color: rgb(200, 23, 206);
+}
+
+#gameContainer {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(44, 11, 61);
+}
+
+h1 {
+    margin: 0;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+input.range {
+    margin-bottom: 6px !important;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+}
